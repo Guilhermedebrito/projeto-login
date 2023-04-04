@@ -2,8 +2,10 @@
 
 body {
     background-color: black;
-    background-image: url(imagens/background.jpg);
-    background-position: center top; 
+    background-image: url(imagens/wallpaper.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
