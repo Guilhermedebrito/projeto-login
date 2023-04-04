@@ -1,22 +1,17 @@
 @charset "UTF-8";
 
-div.bloco {
-    background-image: url(imagens/teste.jpg);
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin: 10px;
+body {
+    background-color: black;
+    background-image: url(imagens/background.jpg);
+    background-position: center top; 
+    
 }
 
-div#q1 {
-    background-position: left top;
+main {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
 }
-
-div#q2 {
-    background-position: left center;
-}
-
-div#q3 {
-    background-position: right bottom;
-}
-
