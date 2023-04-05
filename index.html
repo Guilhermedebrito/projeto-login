@@ -5,14 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylelogin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Projeto Login</title>
 </head>
 
 <body>
-    <article id="container">
+    <header class="header">
 
-        <section id="conteudo">
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
 
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class='bx bx-search'></i></button>
+        </form>
+
+    </header>
+
+    <article class="container">
+
+        <section class="content1">
+            <h2>Nexia</h2>
+
+            <h2>
+                Welcome!<br>
+                To Our New Website.
+            </h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, dolores dolorum? Voluptatum nisi consectetur tempore, ratione ipsum ipsam sunt distinctio incidunt quam sapiente fugiat doloremque maxime deserunt aut dolores sit!</p>
+
+            <nav>
+                <a class="icon1" href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </nav>
+        </section>
+
+        <section class="content2">
+
+            <form class="register">
+                <h1>Sign In</h1>
+                <p >Welcome to Nexia, login to access our website!</p>
+
+                <span>
+                    <p id="user">Username</p>
+                    <box-icon name='envelope' type='solid' ><i class='bx bxs-envelope' ></i></box-icon>
+                    <input class="email" type="email" name="email" placeholder="Type your e-mail">
+                </span>
+
+                <span>
+                    <p id="pass">Password</p>
+                    <box-icon name='lock' type='solid' ><i class='bx bxs-lock' ></i></box-icon>
+                    <input class="password" type="password" name="senha" maxlength="8" value="" placeholder="Type your password!">
+                </span>
+
+                <span>
+                    <input class="checkbox" type="checkbox" name="caixa de seleção">
+                    <p id="keep">Keep me logged in</p>
+                </span>
+
+                <input class="login" type="submit" name="botão" value="LOGIN">
+            </form>
+            
         </section>
 
     </article>
