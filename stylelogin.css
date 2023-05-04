@@ -79,7 +79,7 @@ body {
 }
 
 .search-bar input::placeholder {
-    color:rgba(0, 0, 0, 0.425)
+    color:rgba(0, 0, 0, 0.548)
 }
 
 .search-bar button {
@@ -141,7 +141,6 @@ body {
 
 #nexia, #logo { 
     color: rgb(116, 34, 136);
-    display: ;
 }
 
 #logo {
