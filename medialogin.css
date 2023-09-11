@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 1030px) {
+
+    .content1>p {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 925px) {
+
+    .content1>h2 {
+        padding-top: 20px;
+    }
+}
+ 
+@media screen and (max-width: 900px) {
+
+    .content1 {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+
+    .container {
+        width: 700px;
+        
+    }
+  }

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylelogin.css">
+    <link rel="stylesheet" type="text/css" href="stylelogin.css" media="screen"> 
+    <link rel="stylesheet" type="text/css" href="medialogin.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Projeto Login</title>
 </head>
@@ -21,8 +22,8 @@
             
 
             <h2>
-                Welcome!<br>
-                To Our New Website.
+                Welcome<br>
+                To Our New Website!
             </h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, dolores dolorum? Voluptatum nisi consectetur tempore, ratione ipsum ipsam sunt distinctio incidunt quam sapiente fugiat doloremque maxime deserunt aut dolores sit!</p>
@@ -37,20 +38,22 @@
 
         <section class="content2">
 
-            <form class="register">
+            <form class="register" method="post">
                 <h1>Sign In</h1>
                 <p >Welcome to Nexia, login to access our website!</p>
 
                 <span>
-                    <p id="user">Username</p>
+                    <p id="email">Email</p>
                     <box-icon id="registericon" name='envelope' type='solid' ><i class='bx bxs-envelope' ></i></box-icon>
-                    <input class="email" type="email" name="email" placeholder="Type your e-mail">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email"placeholder="Type your e-mail" size="30px" required>
                 </span>
 
                 <span>
-                    <p id="pass">Password</p>
+                    <p id="senha">Password</p>
                     <box-icon id="registericon" name='lock' type='solid' ><i class='bx bxs-lock' ></i></box-icon>
-                    <input class="password" type="password" name="senha" maxlength="8" value="" placeholder="Type your password!">
+                    <label for="senha"></label>
+                    <input type="password" name="password" minlength="6" maxlength="8" value="" placeholder="Type your password!" required>
                 </span>
 
                 <span>
